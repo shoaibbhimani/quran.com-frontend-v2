@@ -29,7 +29,7 @@ export default class extends Controller {
 
   addBookmark(key, url) {
     $("#bookmark-list").append(
-      `<a class="btn btn--lightgreen btn--large" data-controller="track" data-name="bookmarks" data-category="${key}" href="${url}"><span class="en">${key}</span></a>`
+      `<a class="btn btn--lightgreen btn--large" data-controller="track" data-name="bookmarks" data-category="${key}" href="https://quran.com/${key}"><span class="en">${key}</span></a>`
     );
   }
 }
